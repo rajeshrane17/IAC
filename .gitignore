@@ -3,3 +3,6 @@
 .viminfo
 .ssh/
 .gitconfig
+.aws
+terraform.tfstate
+.terraform*
