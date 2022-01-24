@@ -7,7 +7,7 @@ resource "aws_ami_from_instance" "aws-ami-instance" {
 
   tags = {
     Source = "Terraform"
-    Name   = "each.key"
+    Name   = "${each.key}-new"
   }
 }
 
